@@ -5,16 +5,16 @@ import type { ThemeConfig } from '~/types'
 
 export const defaultConfig: ThemeConfig = {
   site: {
-    title: '活版印字',
-    subtitle: 'Typography',
-    author: 'Moeyua',
-    description: 'Rediscory the beauty of typography',
-    website: 'https://astro-theme-typography.vercel.app/',
+    title: '米有2024',
+    subtitle: '2024小菜鸟',
+    author: 'miyou2024',
+    description: '米有的个人网站',
+    website: 'https://miyou.top/',
     pageSize: 5,
     socialLinks: [
       {
         name: 'github',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/miyou2024',
       },
       {
         name: 'rss',
@@ -22,14 +22,22 @@ export const defaultConfig: ThemeConfig = {
       },
       {
         name: 'twitter',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/miyou2024',
       },
       {
         name: 'mastodon',
-        href: 'https://github.com/moeyua/astro-theme-typography',
+        href: 'https://github.com/miyou2024',
       },
     ],
     navLinks: [
+      {
+        name: 'Home',
+        href: '/home',
+      },
+      {
+        name: 'NestJS',
+        href: '/nestjs',
+      },
       {
         name: 'Posts',
         href: '/',
